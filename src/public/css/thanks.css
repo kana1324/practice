@@ -1,0 +1,29 @@
+.thanks__content {
+    background: #fff;
+    max-width: 1230px;
+    height: 500px;
+}
+
+.thanks__heading {
+    color: rgb(88, 49, 20);
+    font-weight: bold;
+    text-align: center;
+    padding: 200px;
+}
+.thanks__heading::before {
+    padding-top: 200px;
+    left: 50%;
+    font-size: 200px;
+    color: #DCDCDC;
+    content: "Thank you";
+}
+
+.thanks-form__button {
+    width: 30%;
+}
+
+.thanks-form__button-submit {
+    background: rgb(88, 49, 20);
+    color: #fff;
+    
+}

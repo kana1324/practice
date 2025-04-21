@@ -1,0 +1,51 @@
+.header {
+    background: #fff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 10px auto 5px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: rgba(88, 49, 20, 0.6);
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 12px;
+}
+
+.contact-form__content {
+    background: #fff;
+    max-width: 1230px;
+    height: 600px;
+}
+
+.header-form__heading {
+    color: rgba(88, 49, 20, 0.6);
+    text-align: center;
+    padding: 20px;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--item {
+    color: rgba(88, 49, 20, 0.6);
+    margin-left: 175px;
+}
+
+.form__label-required {
+    color: red
+}
+
+.form__input--text input {
+    background: #D3D3D3;
+    color: #A9A9A9;
+    margin-left: 250px;
+}
+

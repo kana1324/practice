@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PracticeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/register', [PracticeController::class, 'register']);
+Route::post('/practice/confirm', [PracticeController::class, 'confirm']);
+Route::get('/login', [PracticeController::class, 'login']);
+Route::get('/', [PracticeController::class, 'index']);
+Route::get('/admin', [PracticeController::class, 'admin']);
+Route::get('/thanks', [PracticeController::class, 'thanks']);
+Route::post('/', [PracticeController::class, 'index']);
